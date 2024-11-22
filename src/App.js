@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { GoContainer } from "react-icons/go";
+import Body from "./Component/Body";
+import Header from "./Component/Header";
+import Sidebar from "./Component/Sidebar";
+import { GiButtonFinger } from "react-icons/gi";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+        
+      <Body/>
+    
     </div>
   );
 }
 
 export default App;
+
+// Sidebar
+// Header
+// main GoContainer
+//   search GiButtonFinger
+//    <video container
+//       video card
+
+
+
